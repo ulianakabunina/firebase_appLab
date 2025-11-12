@@ -7,7 +7,7 @@ package com.example.firebase_applab;
  */
 public class User {
 
-    // --- Поля ---
+    // Поля
     private String name;
     private String email;
     private String registrationDate;
@@ -33,8 +33,7 @@ public class User {
         this.email = email;
     }
 
-    // --- Геттеры и Сеттеры ---
-    // (Код геттеров и сеттеров без изменений)
+    // Геттеры и Сеттеры
     public String getName() {
         return name;
     }
